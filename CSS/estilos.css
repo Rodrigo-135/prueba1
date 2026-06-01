@@ -1,0 +1,135 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fa;
+    color: #333333;
+}
+
+header {
+    background-color: #0B132B;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.header-contenido {
+    text-align: center;
+}
+header h1 {
+    margin: 5px 0;
+    font-size: 2.3rem;
+}
+header p {
+    margin: 5px 0 15px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #0B132B;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.boton {
+    display: inline-block;
+    background-color: #1C77C3;
+    color: white;
+    text-decoration: none;
+    padding: 14px 28px;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.boton:hover {
+    background-color: #155a96;
+}
+.servicio,
+.proyecto,
+.ventaja {
+    background: linear-gradient(
+        135deg,
+        #ffffff,
+        #f4f7fa
+    );
+    border-left: 5px solid #1C77C3;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 15px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+.servicio h3,
+.proyecto h3,
+.ventaja h3 {
+    color: #0B132B;
+}
+.servicio:hover,
+.proyecto:hover,
+.ventaja:hover {
+    transform: translateY(-8px);
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.15);
+}
+.imagen-principal {
+    width: 100%;
+    max-width: 700px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+#inicio {
+    text-align: center;
+}
+.contenedor-servicios {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.servicio {
+    flex: 1;
+    min-width: 250px;
+}
+.contenedor-proyectos,
+.contenedor-ventajas {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.proyecto,
+.ventaja {
+    flex: 1;
+    min-width: 250px;
+}
+nav a {
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #4DD0E1;
+}
+.logo {
+    width: 160px;
+    position: absolute;
+    left: 20px;
+}
